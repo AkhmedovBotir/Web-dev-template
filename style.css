@@ -1,61 +1,94 @@
-*{
-    padding: 0;
-    margin: 0;
-}
-#showcase{
-    background-image: url(img/pexels-photo-248515.png);
-    background-position: center center;
+.body {
+    background-image: url(img/bg.png);
     background-size: cover;
-    background-repeat: no-repeat;
-    width: auto;
-    height: 500px;
-    color: white;
-    text-align: center;
-    background-attachment: fixed;
-}
-.h1s{
-    padding-top: 50px;
-    margin-bottom: 25px;
-}
-.h4s{
-    font-size: 22px;
-}
-.as{
-    text-decoration: none;
-    color: white;
-    background-color: #302e2e;
-    padding: 20px;
-    border: solid 1px;
-}
-.as:hover{
-    color: coral;
-    text-decoration: none;
-}
-#conab{
+    background-position: center;
     width: 100%;
-}
-.contact{
-    width: 50%;
-}
-.about{
-    width: 50%;
-    height: 246px;
-    padding-top: 24px;
+    height: 85vh;
 }
 
+.body-bg {
+    background: rgba(0, 0, 0, 0.438);
+    height: 100%;
 
-#main-footer{
-    background-color: black;
-    color: white;
+}
+
+.body-contain {
+    height: 100%;
+}
+
+.menu {
+    padding: 0 !important;
+}
+
+.main {
+    background-color: #eaeaea;
+}
+
+.imgs {
     width: 100%;
 }
-.leftt{
-    float: left;
-    padding-top: 15px;
-    margin-left: 160px;
+
+@media (max-width: 992px) {
+    .content {
+        margin: 0 !important;
+        width: 30%;
+    }
+
+    .content-text {
+        font-size: 1rem !important;
+    }
+
+    .content-sub {
+        font-size: .8rem !important;
+    }
 }
-.rightt{
-    float: right;
-    padding-top: 15px;
-    margin-right: 160px;
+
+@media (max-width: 768px) {
+    .body-text {
+        font-size: 1.5rem !important;
+    }
+
+    .body-sub {
+        font-size: 1rem !important;
+    }
+
+    .body-title {
+        font-size: .8rem !important;
+    }
+
+    .body-btn {
+        font-size: 1rem !important;
+    }
+
+    .cardtitle {
+        margin: 0;
+        padding-top: 2rem !important;
+    }
+
+    .contact-content {
+        padding: 1.5rem !important;
+    }
+
+    .body-contant {
+        display: flex !important;
+        flex-direction: column;
+    }
+
+    .body-contant-text {
+        width: 100%;
+        text-align: left;
+        margin-top: 10px;
+    }
+
+    .menu-content {
+        width: 70%;
+        margin: 20px !important;
+    }
+    .flex-menu{
+        width: 100%;
+    }
+    .menu-flex {
+        display: flex !important;
+        flex-direction: column !important;
+    }
 }
